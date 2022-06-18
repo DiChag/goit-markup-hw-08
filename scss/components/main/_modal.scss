@@ -24,8 +24,7 @@
   left: 50%;
   padding: 40px;
 
-  width: 528px;
-  height: 581px;
+  width: 95%;
 
   background-color: #fff;
 
@@ -35,7 +34,16 @@
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+  }
 }
+
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scaleX(2.5);
   opacity: 0;
@@ -231,6 +239,10 @@
   line-height: 1.71;
   cursor: pointer;
   user-select: none;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+  }
 }
 
 .contact-form__checkbox-label-link {

@@ -1,4 +1,5 @@
 // utils
+@import './utils/mixins';
 @import './utils/variables';
 @import './utils/reset';
 @import './utils/container';
@@ -7,6 +8,8 @@
 // components
 @import './components/header/header';
 @import './components/logo';
+@import './components/header/header-mobile-button';
+@import './components/header/header-mobile-menu';
 @import './components/header/site-nav';
 @import './components/header/contact-nav';
 @import './components/main/hero';
