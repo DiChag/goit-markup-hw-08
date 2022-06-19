@@ -5,15 +5,14 @@
   margin-right: auto;
   margin-left: auto;
 
-  @include mq(mobile) {
-    width: 480px;
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
   }
 
-  @include mq(tablet) {
-    width: 768px;
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
   }
-
-  @include mq(desctop) {
-    width: 1200px;
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
   }
 }
