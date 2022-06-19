@@ -161,7 +161,7 @@
       <!-- Hero -->
       <section class="hero">
         <div class="container">
-          <h1 class="hero__title">Эффективные решения<br />для вашего бизнеса</h1>
+          <h1 class="hero__title">Эффектиvные решеnия<br />дlя vашего бизнеsа</h1>
           <button class="btn" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
@@ -295,30 +295,42 @@
           <ul class="work__list">
             <li class="work__item">
               <img
-                src="./images/what-are-we-doing/img-1.jpg"
-                alt="keyboard"
-                width="370"
-                height="294"
+                srcset="
+                  ./images/what-are-we-doing/keyboard-desc.jpg    370w,
+                  ./images/what-are-we-doing/keyboard-desc@2x.jpg 740w
+                "
+                src="./images/what-are-we-doing/keyboard-desc.jpg"
+                alt="Десктопные приложения"
+                sizes="(min-width: 1200px) 370px"
+                loading="lazy"
               />
               <p class="work__caption">Десктопные приложения</p>
             </li>
 
             <li class="work__item">
               <img
-                src="./images/what-are-we-doing/img-2.jpg"
-                alt="mobile"
-                width="370"
-                height="294"
+                srcset="
+                  ./images/what-are-we-doing/phone-desc.jpg    370w,
+                  ./images/what-are-we-doing/phone-desc@2x.jpg 740w
+                "
+                src="./images/what-are-we-doing/phone-desc.jpg"
+                alt="Мобильные приложения"
+                sizes="(min-width: 1200px) 370px"
+                loading="lazy"
               />
               <p class="work__caption">Мобильные приложения</p>
             </li>
 
             <li class="work__item">
               <img
-                src="./images/what-are-we-doing/img-3.jpg"
-                alt="tablet"
-                width="370"
-                height="294"
+                srcset="
+                  ./images/what-are-we-doing/tablet-desc.jpg    370w,
+                  ./images/what-are-we-doing/tablet-desc@2x.jpg 740w
+                "
+                src="./images/what-are-we-doing/tablet-desc.jpg"
+                alt="Дизайнерские решения"
+                sizes="(min-width: 1200px) 370px"
+                loading="lazy"
               />
               <p class="work__caption">Дизайнерские решения</p>
             </li>
@@ -333,10 +345,19 @@
           <ul class="team__list">
             <li class="team-card">
               <img
-                src="./images/team-section/img-4.jpg"
+                class="team-image"
+                srcset="
+                  ./images/team-section/desctop/igor-desc.jpg    270w,
+                  ./images/team-section/tablet/igor-tab.jpg      354w,
+                  ./images/team-section/mobile/igor-mob.jpg      450w,
+                  ./images/team-section/desctop/igor-desc@2x.jpg 540w,
+                  ./images/team-section/tablet/igor-tab@2x.jpg   708w,
+                  ./images/team-section/mobile/igor-mob@2x.jpg   900w
+                "
+                src="./images/team-section/mobile/igor-mob.jpg"
                 alt="Product Designer"
-                width="270"
-                height="260"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                loading="lazy"
               />
               <div class="team-card__text">
                 <h3 class="team-card__name">Игорь Демьяненко</h3>
@@ -399,11 +420,21 @@
             </li>
             <li class="team-card">
               <img
-                src="./images/team-section/img-5.jpg"
+                class="team-image"
+                srcset="
+                  ./images/team-section/desctop/olga-desc.jpg    270w,
+                  ./images/team-section/tablet/olga-tab.jpg      354w,
+                  ./images/team-section/mobile/olga-mob.jpg      450w,
+                  ./images/team-section/desctop/olga-desc@2x.jpg 540w,
+                  ./images/team-section/tablet/olga-tab@2x.jpg   708w,
+                  ./images/team-section/mobile/olga-mob@2x.jpg   900w
+                "
+                src="./images/team-section/mobile/olga-mob.jpg"
                 alt="Frontend Developer"
-                width="270"
-                height="260"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                loading="lazy"
               />
+
               <div class="team-card__text">
                 <h3 class="team-card__name">Ольга Репина</h3>
                 <p class="team-card__skill" lang="en">Frontend Developer</p>
@@ -465,10 +496,19 @@
             </li>
             <li class="team-card">
               <img
-                src="./images/team-section/img-6.jpg"
+                class="team-image"
+                srcset="
+                  ./images/team-section/desctop/nikolai-desc.jpg    270w,
+                  ./images/team-section/tablet/nikolai-tab.jpg      354w,
+                  ./images/team-section/mobile/nikolai-mob.jpg      450w,
+                  ./images/team-section/desctop/nikolai-desc@2x.jpg 540w,
+                  ./images/team-section/tablet/nikolai-tab@2x.jpg   708w,
+                  ./images/team-section/mobile/nikolai-mob@2x.jpg   900w
+                "
+                src="./images/team-section/mobile/michail-mob@2x.jpg"
                 alt="Marketing"
-                width="270"
-                height="260"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                loading="lazy"
               />
               <div class="team-card__text">
                 <h3 class="team-card__name">Николай Тарасов</h3>
@@ -531,10 +571,19 @@
             </li>
             <li class="team-card">
               <img
-                src="./images/team-section/img-7.jpg"
+                class="team-image"
+                srcset="
+                  ./images/team-section/desctop/michail-desc.jpg    270w,
+                  ./images/team-section/tablet/michail-tab.jpg      354w,
+                  ./images/team-section/mobile/michail-mob.jpg      450w,
+                  ./images/team-section/desctop/michail-desc@2x.jpg 540w,
+                  ./images/team-section/tablet/michail-tab@2x.jpg   708w,
+                  ./images/team-section/mobile/michail-mob@2x.jpg   900w
+                "
+                src="./images/team-section/mobile/michail-mob.jpg"
                 alt="UI Designer"
-                width="270"
-                height="260"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                loading="lazy"
               />
               <div class="team-card__text">
                 <h3 class="team-card__name">Михаил Ермаков</h3>
@@ -751,6 +800,7 @@
         </div>
       </div>
     </footer>
+
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
